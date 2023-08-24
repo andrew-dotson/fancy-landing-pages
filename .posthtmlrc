@@ -1,0 +1,19 @@
+{
+  "plugins": {
+    "posthtml-modules": {
+      "root": "./src/"
+    },
+    "posthtml-include": {
+      "root": "./src/",
+      "encoding": "utf-8",
+      "posthtmlExpressionsOptions": {
+        "strictMode": false
+      }
+    },
+    "posthtml-inline-svg": {
+      "cwd": "./src/",
+      "tag": "icon",
+      "attr": "src"
+    }
+  }
+}

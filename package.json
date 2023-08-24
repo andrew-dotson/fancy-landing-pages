@@ -1,10 +1,10 @@
 {
-  "name": "rsg-html-tokens",
+  "name": "gsap-barba",
   "version": "1.0.0",
   "main": "index.js",
   "description": "--host 192.168.86.54 --open",
   "scripts": {
-    "start": "parcel src/index.html  --host 192.168.86.54 --open"
+    "start": "parcel src/index.html  --open"
   },
   "license": "MIT",
   "devDependencies": {

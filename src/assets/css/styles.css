@@ -6,7 +6,6 @@ body {
   min-height: 100vh;
   min-height: fill-available;
   min-height: -webkit-fill-available;
-  background: #000;
 }
 
 html {
@@ -17,72 +16,4 @@ html {
 * {
   /*transition: all 100ms linear;*/
   text-rendering: geometricPrecision;
-}
-
-.video-shadow {
-  content: "";
-  position: absolute;
-  inset: 0;
-  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%); */
-  z-index: 20;
-}
-
-.animation-loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /*background-image: url("../img/patterns/pattern-light.png");
-  background-attachment: fixed;*/
-  background-color: #ef4444;
-  z-index: 9999;
-  transform: scaleX(0);
-}
-
-/* button */
-.btn-primary {
-  @apply inline-flex h-14 items-center justify-center gap-3 rounded-full bg-red-500 px-8 text-xs font-bold uppercase tracking-[2px] text-black;
-}
-
-.btn-primary-outline {
-  @apply inline-flex h-14 items-center justify-center gap-3 rounded-full border border-red-500 px-8 text-xs font-bold uppercase tracking-[2px] text-red-500;
-}
-
-.btn-primary-subtle {
-  @apply inline-flex h-8 w-8 items-center justify-center text-red-500;
-}
-
-.btn-contrast {
-  @apply inline-flex h-14 items-center justify-center gap-3 rounded-full bg-white px-8 text-xs font-bold uppercase tracking-[2px] text-black;
-}
-
-.btn-contrast-outline {
-  @apply inline-flex h-14 items-center justify-center gap-3 rounded-full border border-white px-8 text-xs font-bold uppercase tracking-[2px] text-white;
-}
-
-.btn-contrast-subtle {
-  @apply inline-flex h-14 items-center justify-center gap-3 rounded-full px-8 text-xs font-bold uppercase tracking-[2px] text-white;
-}
-
-/* icon */
-.icon {
-  @apply h-5 w-5 fill-current;
-}
-
-.icon-lg {
-  @apply h-6 w-6 fill-current max-sm:h-5 max-sm:w-5;
-}
-
-/* tag */
-.tag {
-  @apply inline-flex h-6 items-center rounded-full px-3 text-[11px] font-medium uppercase tracking-[2px];
-}
-
-.tag-dark {
-  @apply bg-neutral-800 text-gray-300;
-}
-
-.tag-primary-outline {
-  @apply border border-red-500 text-red-500;
 }
